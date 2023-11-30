@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  background-image: url(https://th.bing.com/th/id/R.7c83afe4915fc72564941ab32ff1e37d?rik=pghCQhxAXbDsMg&riu=http%3a%2f%2fblog.hdwallsource.com%2fwp-content%2fuploads%2f2016%2f01%2fgif-41328-42318-hd-wallpapers.jpg.gif&ehk=jXMET6Ao3ZNt37%2bnIYsyMYuEu76zCmEHXHNaWSpkp2c%3d&risl=1&pid=ImgRaw&r=0);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+.login-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  color: yellow;
+  font-family: serif;
+  border: solid 2px blue;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 5px;
+  display: block;
+  font-weight: bold;
+}
+
+input[type="number"],
+input[type="password"] {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+a {
+  color: blue;
+}
+
+a:visited {
+  color: rgb(252, 252, 252);
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: green;
+}
+
+a {
+  text-decoration: none;
+}
+
+a {
+  display: block;
+}
+
+a {
+  padding: 5px;
+}
+
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+a:focus {
+  outline: none;
+}

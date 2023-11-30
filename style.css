@@ -1,0 +1,139 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: auto;
+  padding: auto;
+  background-image: url('https://th.bing.com/th/id/R.7c83afe4915fc72564941ab32ff1e37d?rik=pghCQhxAXbDsMg&riu=http%3a%2f%2fblog.hdwallsource.com%2fwp-content%2fuploads%2f2016%2f01%2fgif-41328-42318-hd-wallpapers.jpg.gif&ehk=jXMET6Ao3ZNt37%2bnIYsyMYuEu76zCmEHXHNaWSpkp2c%3d&risl=1&pid=ImgRaw&r=0');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+
+.logo {
+
+  border: solid 3px green;
+  padding: 10px 0 10px 350px;
+  display: flex;
+
+}
+
+.cname {
+  color: rgb(255, 166, 0);
+  font-size: 50px;
+  text-align: center;
+}
+
+.calendar {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 5px;
+
+}
+
+.head {
+  color: yellow;
+  font-family: serif, monospace;
+  text-decoration: solid;
+  text-decoration: underline;
+  padding-left: 10px;
+}
+
+.events {
+  margin-top: 20px;
+}
+
+.event {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.date {
+  border: solid 2px red;
+}
+
+.title {
+  color: rgb(0, 150, 0);
+  font-size: 30px;
+  font-weight: bold;
+  font-display: solid;
+  font-family: serif
+}
+
+.description {
+  color: rgb(10, 52, 222);
+  border: dotted 2px black;
+  padding: 5px;
+}
+
+.dl {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.time {
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+}
+
+.e1 {
+  background-image: url('https://th.bing.com/th/id/R.6effa7b5c9b41d759a527c3fc4ca8a4f?rik=RxTDqmB%2bnKuafA&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f1%2f2%2f4%2f1261529-cool-birthday-celebration-wallpaper-1920x1080-lockscreen.jpg&ehk=OObeYLYWj%2fkKP08D6EmeLaHltMGdOf9cTXTD2IOSV%2bY%3d&risl=&pid=ImgRaw&r=0');
+
+}
+
+
+a:-webkit-any-link {
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+a {
+  color: #001eff;
+
+}
+
+a:visited {
+  color: #0d00ff;
+
+}
+
+a:hover {
+  color: #00ff2f;
+}
+
+a:active {
+  color: #FFFF00;
+
+}
+
+.footer {
+
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-links li a {
+  color: #fff;
+  text-decoration: none;
+}
